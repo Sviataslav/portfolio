@@ -84,6 +84,7 @@ padding-right: 42px;
     margin-top: 50px;
     color: #727272;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 26px;
 }
 .projectsLine{
     padding-top: 100px;
@@ -144,13 +145,8 @@ padding-right: 42px;
     width: 555px;
     margin: 5% auto;
 }
-.test{
-    height: 300px;
-    background-color: red;
-
-}
 .howIWork{
-    background-color: silver;/*Поменять на нужный цвет*/
+    background-color: #EEEFF1;/*Поменять на нужный цвет*/
     height: 50em;
     margin: 0 auto;
 }
@@ -175,12 +171,85 @@ padding-right: 42px;
     text-align: center;
 }
 .VideoContainer{
-    height: 50%;
+    height: 100vh;
+    text-align: center;
 
 }
 .video{
-    margin: 0 auto;
-    height: 50%;
+width: 50vw;
+padding-top: 55px;
 }
-@media (max-width:1000px){.test {background:green;}};
-
+.blockProjectPhoto{
+    margin-top: 28px;
+    height: 50vw;
+}
+.projectImg{
+    width: 25vw;
+    float: left;
+}
+.containerMicrosoftLogo{
+    height: 20vh;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.microsoftLogo{
+    margin-top: 5vh;
+    margin-right: 30px;
+    width: 15%;
+}
+.blockContactForm{
+    background-color: #EEEFF1;
+    overflow: hidden;
+}
+.infoForm {
+    height: 15em;
+    padding-top: 68px;
+    text-align: center;
+}
+.callForm{
+    width: 540px;
+    margin: 0 auto;
+}
+.textYourName{
+    float: left;
+}
+.textYourEmail{
+    float: inline-end;
+}
+.inputName{
+    width: 255px;
+    height: 50px;
+    margin-right: 25px;
+    border: none;
+}
+.inputEmail{
+    width: 255px;
+    height: 50px;
+    border: none;
+    }
+.blockEmailAndName{
+    width: 560px;
+}
+.textComment {
+    margin-top: 20px;
+}
+.inputComment{
+    height: 175px;
+    width: 540px;
+    border: none;
+    margin-bottom: 34px;
+}
+.bottomSend{
+    text-align: center;
+    background: #34547A;
+    height: 65px;
+    width: 225px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.bottomBar{
+    height: 15vh;
+    background-color: #34547A;
+    overflow: hidden;
+}
