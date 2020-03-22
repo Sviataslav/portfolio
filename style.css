@@ -2,20 +2,29 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: grey;
+    border: 4px solid black;
 }
 .secLine{
-    margin-left: 100px;
+    margin-left: 98px;
     height: 100px;
     width: 5px;
     background-color: black;
 }
 .hourLine{
-    margin-left: 100px;
+    position: absolute;
+    top: 54px;
+    left: 100px;
     height: 50px;
     width: 7px;
     background-color: red;
-
+}
+.minuteLine{
+    position: absolute;
+    top: 34px;
+    left: 100px;
+    height: 70px;
+    width: 6px;
+    background-color: blue;
 }
 @keyframes hourLine{
     from{
@@ -26,9 +35,10 @@
     }
 }
 .hourLine{
+    transform-origin: bottom;
     animation-name: secLine;
     animation-iteration-count: infinite;
-    animation-duration: 360s;
+    animation-duration: 216000s;
     animation-timing-function: linear;
 }
 @keyframes secLine{
@@ -46,7 +56,22 @@
     animation-duration: 60s;
     animation-timing-function: linear;
 }
+@keyframes minuteLine{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.minuteLine{
+    animation-name: minuteLine;
+    transform-origin: bottom;
+    animation-iteration-count: infinite;
+    animation-duration: 3600s;
+    animation-timing-function: linear;
 
+}
 @keyframes test1{
     from{
         width: 50vw;
