@@ -126,7 +126,7 @@ i {
 }
 .higherContainer{
     background-color: #EEEFF1;
-    height: 117px;
+    
 }
 .logo{
     padding-top: 40px;
@@ -145,6 +145,8 @@ i {
     font-weight: 600;
     text-decoration: none;
     padding-right: 2%;
+    padding-bottom: 3vw;
+    margin-bottom: 0px;
 }
 .container {
     margin: 0 auto;
@@ -205,16 +207,16 @@ i {
     color: #727272;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 26px;
-    margin-bottom: 10vw;
+    margin-bottom: 10vh;
 }
 .projectsLine{
-    padding-top: 100px;
+    padding-top: 5vh;
     background-color: #34547A;
-    height: 10em;
+    padding-bottom: 5vh;
 }
 .projImg{
-    height: 50px;
-    margin-right: 49px; 
+    height: 6vh;
+    margin-right: 2vw; 
 }
 .projectsLine{
     text-align: center;
@@ -223,7 +225,7 @@ i {
     width: 80%;
     overflow: hidden;
     margin: 0 auto;
-    height: 40em;
+    
 }
 .leftColoanSkills{
     margin-left: 5%;
@@ -234,15 +236,16 @@ i {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     font-size: 32px;
-    margin-top: 204px;
+    margin-top: 15vh;
 }
 .nameOfSkills{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #727272;
     margin: 50 auto 20px;
     font-size: 16px;
-
-
+}
+.rightColoanSkills{
+    margin-top: 5vh;
 }
 .firstPartLoadLine{
     
@@ -262,16 +265,15 @@ i {
     float: left;
     width: 50%;
     text-align: center;
-    height: 100%;
     
 }
 .photoFace{
     width: 30vw;
     margin: 5% auto;
+    min-width: 300px;
 }
 .howIWork{
     background-color: #EEEFF1;/*Поменять на нужный цвет*/
-    height: 50vw;
     margin: 0 auto;
 }
 .howIWOrkInformation{
@@ -295,17 +297,16 @@ i {
     text-align: center;
 }
 .VideoContainer{
-    height: 100vh;
     text-align: center;
 
 }
 .video{
 width: 50vw;
-padding-top: 55px;
+padding-top: 5vh;
+padding-bottom: 5vh;
 }
 .blockProjectPhoto{
-    margin-top: 28px;
-    height: 50vw;
+    overflow: hidden;
 }
 .containerProjectsPhoto{
     width: 100%;
@@ -315,15 +316,15 @@ padding-top: 55px;
     float: left;
 }
 .containerMicrosoftLogo{
-    height: 20vh;
     text-align: center;
     overflow: hidden;
     
 }
 .microsoftLogo{
-    margin-top: 5vh;
+    margin-top: 3vh;
     margin-right: 30px;
     width: 15%;
+    margin-bottom: 3vh;
 }
 .blockContactForm{
     background-color: #EEEFF1;
@@ -497,4 +498,29 @@ padding-top: 55px;
     .VideoContainer{
         
     }
+}
+.sneakersPath{
+    fill: green;
+}
+.sneakersSvg{
+    height: 200px;
+
+}
+.test2, .test3, .test4{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+}
+/*.parent > .child {
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+}*/
+/*для вложенных эементов прямо в блоке*/
+/*.parent .child{
+    
+}*/
+/*для всех child внутри  parent*/
+li:nth-child(odd){
+    color: red;
 }
