@@ -1,118 +1,6 @@
-.clock{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 4px solid black;
-}
-.secLine{
-    margin-left: 98px;
-    height: 100px;
-    width: 5px;
-    background-color: black;
-}
-.hourLine{
-    position: absolute;
-    top: 54px;
-    left: 100px;
-    height: 50px;
-    width: 7px;
-    background-color: red;
-}
-.minuteLine{
-    position: absolute;
-    top: 34px;
-    left: 100px;
-    height: 70px;
-    width: 6px;
-    background-color: blue;
-}
-@keyframes hourLine{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
-.hourLine{
-    transform-origin: bottom;
-    animation-name: secLine;
-    animation-iteration-count: infinite;
-    animation-duration: 216000s;
-    animation-timing-function: linear;
-}
-@keyframes secLine{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
-.secLine{
-    transform-origin: bottom;
-    animation-name: secLine;
-    animation-iteration-count: infinite;
-    animation-duration: 60s;
-    animation-timing-function: linear;
-}
-@keyframes minuteLine{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
-.minuteLine{
-    animation-name: minuteLine;
-    transform-origin: bottom;
-    animation-iteration-count: infinite;
-    animation-duration: 3600s;
-    animation-timing-function: linear;
-
-}
-@keyframes test1{
-    from{
-        width: 50vw;
-    }
-    to{
-        width: 100vw;
-    }
-}
-@keyframes loader{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
-.loader{
-    animation-name: loader;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    
-
-}
-.test1{
-    width: 50vw;
-    background-color: blue;
-    animation-name: test1;
-    animation-duration: 4s;
-    animation-timing-function: case-in;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-delay: 2s;
-}
-.test1:hover{
-    animation-play-state:
-    paused;
-}
 @font-face{
-    font-family: "iconFont";
-    src: url('./fonts/fontello/font/fontello.ttf');
+    font-family: Roboto;
+    src: url(./fonts/roboto/Roboto-Regular.ttf);
 }
 body{margin: 0;}
 .main {
@@ -138,7 +26,7 @@ i {
     padding-left: 50vw;
 }
 .textHigherMenu{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     color: #34547A;
     font-size: 16px;
     letter-spacing: 0.1em;
@@ -166,12 +54,12 @@ i {
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 48px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     line-height: 79px;
     font-weight: 600;
 }
 .mainInformation{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     color: #727272;
     line-height: 26px;
 }
@@ -186,7 +74,7 @@ i {
 .bottomText{
     padding-top: 20px;
     color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     letter-spacing: 0.1em;
     font-size: 16px;
     text-decoration: none;
@@ -197,7 +85,7 @@ i {
     text-align: center;   
 }
 .HedingInfoAboutMe{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     font-size: 32px;
     font-weight: 600;/*Как вытянуть буквы, и почему font-weight Нужно делать жирнее чем в примере, пробел;*/
 
@@ -205,7 +93,7 @@ i {
 .textInfoAboutMe{
     margin-top: 5vh;
     color: #727272;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     line-height: 26px;
     margin-bottom: 10vh;
 }
@@ -233,13 +121,13 @@ i {
     margin-right: 4%;
 }
 .headingSkills{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 32px;
     margin-top: 15vh;
 }
 .nameOfSkills{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     color: #727272;
     margin: 50 auto 20px;
     font-size: 16px;
@@ -251,12 +139,12 @@ i {
     
     margin-bottom: 30px;
     height: 4px;
-    width: 446.36px;
+    width: 23.5vw;
     background-color: #C4C4C4;
 }
 .secondPartLoadLine{
     
-    width: 349px;
+    width: 80%;
     height: 4px;
     background-color: #34547A;
     
@@ -282,7 +170,7 @@ i {
     text-align: center;
 }
 .headdingInfHIW{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 32px;
     padding-top: 100px;
@@ -292,7 +180,7 @@ i {
     padding-top:  34px;
     margin: 0 auto;
     color: #727272;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     width: 50%;
     text-align: center;
 }
@@ -310,6 +198,18 @@ padding-bottom: 5vh;
 }
 .containerProjectsPhoto{
     width: 100%;
+}
+.forViewMark{
+    width: 25vw;
+    height: 25vw;
+    float: left;
+    background-image: url(./image/photoProj3.png);
+    background-size: 100%;
+}
+.viewMark{
+    width: 22.222%;
+    padding-left: 38.889%;
+    padding-top: 38.889%;
 }
 .projectImg{
     width: 25vw;
@@ -331,8 +231,7 @@ padding-bottom: 5vh;
     overflow: hidden;
 }
 .infoForm {
-    height: 15em;
-    padding-top: 68px;
+    padding-top: 5vh;
     text-align: center;
 }
 .callForm{
@@ -382,12 +281,12 @@ padding-bottom: 5vh;
     overflow: hidden;
 }
 .name{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     color: #FFFFFF;
     font-size: 21px;
 }
 .law{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
     color: #FFFFFF;
     font-size: 13px;
 }
@@ -412,16 +311,19 @@ padding-bottom: 5vh;
     }
     .leftColoanSkills{
         float: none;
+        text-align: center;
     }
-    .containerSkills{
-        height: 20%;
+    .rightColoanSkills{
+       margin-left: 20vw;
     }
-
+    .loadLineSkills{
+        padding-left: 10%;
+    }
+    .firstPartLoadLine{
+        width: 60vw;
+    }
 }
-@media (max-width: 1155px) {
-    .main{
-        height: 80vh;
-    }
+@media (max-width: 1165px) {
     .leftColoan{
         margin-left: 30%;
     }
@@ -454,36 +356,64 @@ padding-bottom: 5vh;
     }
     
 }
-@media (max-width: 713px){
+@media (max-width: 768px){
     .container{text-align: center;}
     .leftColoan{
-        margin-left: 25%;
+        margin-left: 20%;
         
     }
     .rightColoan{
-        margin-left: 15%;
+        margin-left: 10%;
         
     }
 }
-@media (max-width: 648px){
+@media (max-width: 425px){
     .logo{
         text-align: center;
-        padding-left: 45%;
+        padding-left: 40%;
     }
     .textHigherMenu{
         font-size: 14px;
-        padding-left: 1%;
-        
+        text-align: center;       
     }
     .higherMenu{
         padding-left: 7px;
         margin: 0 auto;
     }
+    .leftColoan{
+        margin-left: 15%;
+    }
+    .laptopImg{
+        width: 60vw;
+    }
+    .rightColoan{
+        margin-left: 5%;
+    }
+    .headingRightColoan{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .bottom{
+        margin-left: 12%;
+    }
+    .mainInformation{
+        margin: 0;
+    }
+    .infoAboutMe{
+        padding-top: 0px;
+    }
+    .rightColoanSkills{
+        margin-left: 5vw;
+    }
     .headingSkills{
-        margin: 0 auto ;
+        margin: 0px auto ;
+        padding-top: 5px;
     }
     .photoFace{
         width: 100%;
+    }
+    .howIWOrkInformation{
+        width: 80%;
     }
     .informtionInHowIWork{
         padding-top: 1%;
@@ -493,34 +423,60 @@ padding-bottom: 5vh;
     }
     .video{
         padding-top: 1%;
-        height: 30%;
+        width: 70vw;
+        height: 50vw;
     }
-    .VideoContainer{
-        
+    .microsoftLogo{
+        margin-right: 3%;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        width: 20%;
     }
-}
-.sneakersPath{
-    fill: green;
-}
-.sneakersSvg{
-    height: 200px;
+    .infoForm{
+        padding-top: 0px;
+    }
+    .callForm{
+        width: auto;
+    }
+    .blockEmailAndName{
+        width: auto;
+        text-align: center;
+    }
+    .textYourName{
+        float: none;
+    }
+    .inputName{
+        margin: 5px 0px;
+    }
+    .inputComment{
 
+        width: 90%;
+    }
+    .bottomSend{
+        margin-bottom: 5%;
+    }
+    .textInfoAboutMe{
+        margin-bottom: 5vh;
+    }
+    .infoAndLaw{
+        margin-left: 3vw;
+    }
+    .blocklogoVk{
+        margin: 0;
+    }
 }
-.test2, .test3, .test4{
-    background-color: blueviolet;
-    height: 200px;
-    width: 200px;
+@media (max-width: 320px){
+    .headingRightColoan{
+        font-size: 25px;
+    }
+    .bottom{
+        margin-left: 0px;
+    }
+    .rightColoanSkills{
+        margin: 0px;
+    }
+    .logoVk{
+        margin-left: 3%;
+    }
 }
-/*.parent > .child {
-    background-color: yellow;
-    height: 300px;
-    width: 300px;
-}*/
-/*для вложенных эементов прямо в блоке*/
-/*.parent .child{
-    
-}*/
-/*для всех child внутри  parent*/
-li:nth-child(odd){
-    color: red;
-}
+
